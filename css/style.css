@@ -1,0 +1,52 @@
+.inlineblock {
+    vertical-align: top;
+    display:inline-block;
+  }
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+nav {
+    width: 73%;
+    padding: 1%;
+}
+ul {
+    width: 50%;
+}
+ .heroImg {
+    height: 600px;
+    padding: 25px;
+ }
+ .content {
+    width: 500px;
+    margin: 0 auto;
+ }
+footer {
+    background-color: #0f83d13a;
+    padding: 1%;
+}
+.bottom {
+    display: inline-block;
+    vertical-align: top;   
+}
+p {
+   font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.flexContainer {
+    display: flex;
+    width: 33%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+h1 {
+    text-align: center;
+}
+
+.workGrid {
+    display: grid;
+    row-gap: 10px;
+    grid-column: 3;
+}
