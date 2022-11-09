@@ -47,6 +47,13 @@ h1 {
 
 .workGrid {
     display: grid;
-    row-gap: 10px;
-    grid-column: 3;
+    grid-template-columns: 1fr 3fr;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .flexContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
